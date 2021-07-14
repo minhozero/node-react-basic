@@ -24,6 +24,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!111')
 })
 
+app.get('/api/hello', (req, res) => {
+  res.send("안녕~")
+})
+
 // 회원가입 
 app.post('/api/users/register', (req, res) => {
   // 회원 가입에 필요한 정보들을 client 에서 받음
