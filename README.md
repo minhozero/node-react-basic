@@ -66,7 +66,7 @@ mongoose.connect('mongodb+srv://계정:패스워드@node-react-basic.8s3xciu.mon
 
 5 강
 ---
-1-1. github repositories 생성
+1-1. github repositories 생성한다.
 ---------------
 1. git bash 실행 후 ls -a ~/.ssh (id_rsa id_rsa.pub 파일 없으면)
 2. 구글에서 git ssh generating 검색후 Generating a new SSH key and adding it to the ssh-agent 진입
