@@ -48,12 +48,28 @@ mongoose.connect('mongodb+srv://계정:패스워드@node-react-basic.8s3xciu.mon
 
 3 강
 ---
-1-1. Model 생성
+1-1. Model & Schema 생성
 ---------------
 1. models 폴더 생성.
-2. models/User.js 파일 생성 (User.js 참조)
-3. 
+2. models/User.js 파일 생성 (User_1.js 참조)
 
+4 강
+---
+1-1. GIT 설치
+---------------
+1. https://git-scm.com/ 다운로드 후 설치.
+2. git --version 으로 설치 확인.(바로 확인 안될땐 VSCode 재실행 후 확인)
+3. git init (깃 저장소 생성)
+4. .gitignore 파일 생성. node_modules 추가하면 해당 폴더는 git저장소에 포함되지 않는다.
+5. git add . (node_modules 가 빠져있는지 확인) -> git status
+6. git commit -m " 메시지 "  -> 처음엔 안됨. github 설정 해줘야함.
 
+5 강
+---
+1-1. github repositories 생성
+---------------
+1. git bash 실행 후 ls -a ~/.ssh (id_rsa id_rsa.pub 파일 없으면)
+2. 구글에서 git ssh generating 검색후 Generating a new SSH key and adding it to the ssh-agent 진입
+3. ssh-keygen -t rsa -b 4096 -C "your_email@example.com" 
 
 
