@@ -70,6 +70,17 @@ mongoose.connect('mongodb+srv://계정:패스워드@node-react-basic.8s3xciu.mon
 ---------------
 1. git bash 실행 후 ls -a ~/.ssh (id_rsa id_rsa.pub 파일 없으면)
 2. 구글에서 git ssh generating 검색후 Generating a new SSH key and adding it to the ssh-agent 진입
-3. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"  6강 5분 44초
+3. ssh-keygen -t rsa -b 4096 -C "minho85zero@naver.com"
+4. eval "$(ssh-agent -s)"
+5. ssh-add ~/.ssh/id_rsa
+6. 3."Adding a new SSH key to your GitHub account." 클릭
+7. clip < ~/.ssh/id_rsa.pub
+8. github -> setting -> SSH and GPR keys 클릭 후 new ssh key 클릭 후 클립보드에 복사된 키를 붙여 넣고 만든다.
 
+2-1. github 연동
+---------------
+1. 레파지토리 생성 후 나온 문장 한줄 한줄 실행.
+2. git remote add origin git@github.com:minhozero/node-react-basic2.git
+3. git branch -M master
+4. git push -u origin master
 
