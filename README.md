@@ -80,7 +80,10 @@ mongoose.connect('mongodb+srv://계정:패스워드@node-react-basic.8s3xciu.mon
 2-1. github 연동
 ---------------
 1. 레파지토리 생성 후 나온 문장 한줄 한줄 실행.
-2. git remote add origin git@github.com:minhozero/node-react-basic2.git
-3. git branch -M master
-4. git push -u origin master
+2. git init
+3. git add README.md
+4. git commit -m "first commit"
+5. git branch -M master
+6. git remote add origin git@github.com:minhozero/node-react-basic2.git
+7. git push -u origin master
 
