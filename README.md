@@ -70,6 +70,6 @@ mongoose.connect('mongodb+srv://계정:패스워드@node-react-basic.8s3xciu.mon
 ---------------
 1. git bash 실행 후 ls -a ~/.ssh (id_rsa id_rsa.pub 파일 없으면)
 2. 구글에서 git ssh generating 검색후 Generating a new SSH key and adding it to the ssh-agent 진입
-3. ssh-keygen -t rsa -b 4096 -C "your_email@example.com" 
+3. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"  6강 5분 44초
 
 
