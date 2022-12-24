@@ -4,9 +4,10 @@
 ----
 
 
-1-1. node 설치 node.js
+1-1. node 설치. VS Code 설치
 -----------------
 나머지는 필수 아님.
+
 1-2. NVM 설치 : github.com/coreybutler/nvm-windows/releases 
 ----------------
 1-3. 노드버전 설치 : nvm install 10.16.0 64  (64는 컴퓨터 bit)
@@ -17,6 +18,9 @@
 -----------------
 2-1. 폴더 생성 및 기본파일 생성
 -----------------
+mkdir node-react-basic
+npm init (package.json 파일 생성 author에 이름 적어줌. 기본값 엔터)
+
 
 4. 
 5.
