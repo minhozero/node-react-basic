@@ -87,3 +87,31 @@ mongoose.connect('mongodb+srv://계정:패스워드@node-react-basic.8s3xciu.mon
 6. git remote add origin git@github.com:minhozero/node-react-basic2.git
 7. git push -u origin master
 
+6 강
+---
+1-1. 설치
+---------------
+1. bodyParser : npm install body-parser --sava
+2. PostMan : https://www.postman.com/
+
+2-1. 회원가입을 위한 Register Route 만들기
+---------------
+index.js
+
+7 강
+---
+1-1. NodeMon (저장시 서버 재시작)
+---------------
+1. npm install nodemon --save-dev
+2. 시작할때 nodemon으로 시작 package.json에 스크립트 추가. 
+
+8 강 비밀 정보 보호
+---
+config 폴더 생성 및 설정파일 생성(dev/prod)
+
+9 강 Bcrypt 비밀번호
+---
+npm install bcrypt --save
+
+
+
