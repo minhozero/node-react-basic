@@ -113,5 +113,16 @@ config 폴더 생성 및 설정파일 생성(dev/prod)
 ---
 npm install bcrypt --save
 
+10 ~ 11 강 로그인
+---
+npm install jsonwebtoken --save
+
+
+1. jsonwebtoken 사이트 참조하여 토큰생성.
+
+
+
+
+
 
 
