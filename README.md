@@ -7,7 +7,7 @@
 나머지는 필수 아님.
 
 1. NVM 설치 : github.com/coreybutler/nvm-windows/releases -> nvm-setup.zip 다운로드 후 설치
-2. 노드버전 설치 : nvm install 10.16.0 64  (64는 컴퓨터 bit)
+2. 노드버전 설치 : nvm install v10.16.0 64  (64는 컴퓨터 bit)
 3. 노드버전 변경 : nvm use 10.16.0
 4. 버전 확인 : node -v
 
@@ -123,7 +123,11 @@ npm install jsonwebtoken --save
 
 15 강 React
 ---
-npx create-react-app
+1. client. server 폴더 생성
+2. config, middleware, model, index.js 를 server 폴더로 이동
+3. cd client
+4. npx create-react-app .
+버전 낮아서 설치 안될땐 노드버전 올리고 설치해본다.
 
 
 
