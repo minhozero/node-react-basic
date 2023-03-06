@@ -129,7 +129,13 @@ npm install jsonwebtoken --save
 4. npx create-react-app .
 버전 낮아서 설치 안될땐 노드버전 올리고 설치해본다.
 
+18 강 es7 설치
+---
+확장 -> es7 
 
-
+19 강 React Router Dom
+---
+1. client 폴더 이동
+2. npm install react-router-dom --save
 
 
